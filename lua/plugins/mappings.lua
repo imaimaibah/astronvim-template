@@ -7,7 +7,7 @@ return {
         -- first key is the mode
         n = {
           ["<C-q>"] = { "<C-v>", desc = "Visual Block" },
-          ["<C-\\>"] = { "<Cmd>ToggleTerm direction=float<CR>", desc = "Terminal flot" },
+          ["<C-\\>"] = { "<Cmd>ToggleTerm direction=float<CR>", desc = "Terminal float" },
         },
         t = {
           ["<C-\\>"] = { "<C-\\><C-n>", desc = "Normal mode" },
